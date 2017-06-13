@@ -2,8 +2,11 @@
 /**
  * CKeditor 	adapter for ICMS
  *
- * @license	http://www.fsf.org/copyleft/gpl.html GNU public license
- * @version	SVN 4709 2008-09-06 21:07:58Z skenow
+ * @copyright	The ImpressCMS Project http://www.impresscms.org/
+ * @license		http://www.fsf.org/copyleft/gpl.html GNU public license
+ * @package		core
+ * @since		2.0 alpha 5
+ * @version		SVN 4709 2008-09-06 21:07:58Z skenow
  */
 global $icmsConfig;
 

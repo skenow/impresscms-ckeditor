@@ -10,8 +10,8 @@
  */
 
 $editorversion = array(
-		'name' => "CKEditor 4.7.0",
-		'version' => "4.7.0",
+		'name' => "CKEditor 4.14.0",
+		'version' => "4.14.0",
 		'license' => "GPL see LICENSE",
 		'dirname' => "CKeditor",
 		'class' => "icmsFormCKEditor",

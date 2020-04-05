@@ -1,6 +1,6 @@
 ﻿/**
- * @license Copyright (c) 2003-2017, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md or http://ckeditor.com/license
+ * @license Copyright (c) 2003-2020, CKSource - Frederico Knabben. All rights reserved.
+ * For licensing, see LICENSE.md or https://ckeditor.com/license
  */
 
 /**
@@ -10,13 +10,13 @@
  * If you would like to build CKEditor online again
  * (for example to upgrade), visit one the following links:
  *
- * (1) http://ckeditor.com/builder
+ * (1) https://ckeditor.com/cke4/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) http://ckeditor.com/builder/cfae73a41dd1f578efde051693f9bdd1
+ * (2) https://ckeditor.com/cke4/builder/c8d01d5df855f84c3c510d3cfb0245d2
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) http://ckeditor.com/builder/download/cfae73a41dd1f578efde051693f9bdd1
+ * (3) https://ckeditor.com/cke4/builder/download/c8d01d5df855f84c3c510d3cfb0245d2
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -38,6 +38,7 @@ var CKBUILDER_CONFIG = {
 		'.jshintignore',
 		'.jshintrc',
 		'.mailmap',
+		'.npm',
 		'.travis.yml',
 		'README.md',
 		'bender-err.log',
@@ -54,6 +55,8 @@ var CKBUILDER_CONFIG = {
 	plugins : {
 		'a11yhelp' : 1,
 		'about' : 1,
+		'autoembed' : 1,
+		'autogrow' : 1,
 		'autosave' : 1,
 		'base64image' : 1,
 		'basicstyles' : 1,
@@ -62,10 +65,13 @@ var CKBUILDER_CONFIG = {
 		'button' : 1,
 		'ckeditor_fa' : 1,
 		'clipboard' : 1,
+		'codeTag' : 1,
+		'codemirror' : 1,
 		'codesnippetgeshi' : 1,
 		'colorbutton' : 1,
 		'colordialog' : 1,
 		'contextmenu' : 1,
+		'copyformatting' : 1,
 		'dialog' : 1,
 		'dialogadvtab' : 1,
 		'dialogui' : 1,
@@ -89,6 +95,7 @@ var CKBUILDER_CONFIG = {
 		'htmlwriter' : 1,
 		'iframe' : 1,
 		'image' : 1,
+		'imagebrowser' : 1,
 		'imageresponsive' : 1,
 		'imageuploader' : 1,
 		'indent' : 1,
@@ -100,6 +107,7 @@ var CKBUILDER_CONFIG = {
 		'liststyle' : 1,
 		'magicline' : 1,
 		'maximize' : 1,
+		'mediaembed' : 1,
 		'menu' : 1,
 		'menubutton' : 1,
 		'newpage' : 1,
@@ -110,6 +118,7 @@ var CKBUILDER_CONFIG = {
 		'pastebase64' : 1,
 		'pastefromword' : 1,
 		'pastetext' : 1,
+		'pastetools' : 1,
 		'popup' : 1,
 		'preview' : 1,
 		'print' : 1,
@@ -134,6 +143,7 @@ var CKBUILDER_CONFIG = {
 		'undo' : 1,
 		'wordcount' : 1,
 		'wsc' : 1,
+		'wysiwygarea' : 1,
 		'youtube' : 1
 	},
 	languages : {

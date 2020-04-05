@@ -19,11 +19,11 @@ class CKEditor {
 	/**
 	 * The version of %CKEditor.
 	 */
-	const version = '4.7.0';
+	const version = '4.14.0';
 	/**
 	 * A constant string unique for each release of %CKEditor.
 	 */
-	const timestamp = 'H4PG';
+	const timestamp = 'K24B';
 
 	/**
 	 * URL to the %CKEditor installation directory (absolute or relative to document root).

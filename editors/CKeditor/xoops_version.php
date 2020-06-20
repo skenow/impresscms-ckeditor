@@ -10,4 +10,4 @@
 * @version		1.0
 */
 
-require_once 'icms_version.php';
+require_once __DIR__ . '/icms_version.php';
